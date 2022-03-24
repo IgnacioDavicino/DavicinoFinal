@@ -1,7 +1,9 @@
-// NOSOTROS 
-
 
 @media (max-width:$mobile){
+    
+    
+    //NOSOTROS
+
     .section__nosotros{
         display: flex;
         flex-direction: column;
@@ -18,12 +20,18 @@
         display: inline;
     }
 
+    // CONTACTO 
+    .contacto
+    {flex-direction: column;}
+    .pasosaseguir
+    {flex-direction: column;}
+
+
+    // GALERIA
+    .galeriatitulo
+    {flex-direction: column;}
+
 
 }
 
 
-// CONTACTO 
-
-@media (max-width:$mobile){
-    .contacto{flex-direction: column;}
-}

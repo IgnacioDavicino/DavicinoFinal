@@ -170,8 +170,10 @@ footer {
     margin: 1rem;
     padding: 1rem; }
   .swipe {
-    display: inline; } }
-
-@media (max-width: 420px) {
+    display: inline; }
   .contacto {
+    flex-direction: column; }
+  .pasosaseguir {
+    flex-direction: column; }
+  .galeriatitulo {
     flex-direction: column; } }
