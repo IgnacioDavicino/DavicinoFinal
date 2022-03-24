@@ -159,6 +159,9 @@ footer {
   flex-direction: row; }
 
 @media (max-width: 420px) {
+  .seccioninicial {
+    display: flex;
+    flex-direction: column; }
   .section__nosotros {
     display: flex;
     flex-direction: column; }

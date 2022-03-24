@@ -1,6 +1,11 @@
 
 @media (max-width:$mobile){
-    
+    //INDEX
+
+    .seccioninicial{
+        display: flex;
+        flex-direction: column;
+    }
     
     //NOSOTROS
 
