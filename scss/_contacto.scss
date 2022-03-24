@@ -1,3 +1,4 @@
+
 .textocontacto{
     background-color: darkgray;
 }
@@ -5,10 +6,18 @@
 .contacto{
     display: flex;
     flex-direction: row;
-    background-color: slategray;
+    background: linear-gradient(to right, #43c6ac, #191654);
+    color: white;
     .infocontacto{
         display: flex;
         flex-direction: column;
         justify-content: start;
     }
+}
+
+.pasosaseguir{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
 }

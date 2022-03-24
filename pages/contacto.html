@@ -16,7 +16,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">  
   <!-- Icono -->
   <link rel="icon" type=image/png href="../img/logo.png">
   <!-- Font awesome-->
@@ -29,7 +29,7 @@
 
 <body>
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark shadow-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">
         <img class="navbar__logo" src="../img/logo.png" alt="logo" class="d-inline-block align-text-top">
@@ -57,12 +57,8 @@
     </div>
   </nav>
   <main>
-    <section class="textocontacto text-light text-center p-5">
-      <h4>Esta es nuestra sección de contactos, rellená los formularios para solicitar un diseño de tu hogar</h3>
-        <p>También podes solicitar un turno para una entrevista física en nuestro propio lugar</p>
-    </section>
     <section class="contacto">
-      <div class="formulario col-md-6 p-5">
+      <div class="formulario col-md-4 p-5">
         <form class="row g-3">
           <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Email</label>
@@ -103,13 +99,15 @@
             <label for="floatingTextarea2">Comments</label>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="col-md-5 btn btn-dark">Enviar</button>
-            <button type="reset" class="col-md-5 btn btn-dark">Reiniciar</button>
+            <button type="submit" class="button col-md-5">Enviar</button>
+            <button type="reset" class="button col-md-5">Reiniciar</button>
           </div>
         </form>
       </div>
-      <div class="col-md-1"></div>
-      <div class="infocontacto col-md-5 p-5 gap-5">
+      <div class="col-md-4">
+        <img class="img-fluid pt-5" src="../img/contacto.svg" alt="imgcontacto">
+      </div>
+      <div class="infocontacto col-md-4 p-5 gap-5">
         <div>
           <h5>Contacto</h5>
           <h6>Tel: 3777629210</h6>
@@ -127,52 +125,20 @@
         </div>
       </div>
     </section>
-    <section class="infodesplegable p-5 bg-secondary">
-      <h5 class="text-center m-4">Clickea las barras desplegables para conocer los pasos a seguir luego de que nos contactemos</h5>
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Paso 1 
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-              <p>Luego del contacto, nuestra metodologia se basa en un estudio inicial del hogar</p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Paso 2 
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            <div class="accordion-body">
-              <p>Luego con nuestro equipo diseñamos varias alternativas en base a las preferencias o indicaciones recibidas por el cliente</p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Paso 3 
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-              <p>Finalmente nuestro equipo de trabajo acordara una fecha para iniciar el proyecto de construcción/remodelación del hogar.</p>
-            </div>
-          </div>
-        </div>
+    <section class="pasosaseguir text-center p-5">
+      <div>
+        <img src="../img/pasosaseguir.svg" alt="contratosvg">
+      </div>
+      <div>
+        <h3>Luego de rellenar el formulario nos contactaremos contigo, o también puedes dejarnos un mensaje</h3>
+        <p>Puedes visitar sin previo aviso nuestras instalaciones cuya ubicación ya han sido dadas anteriormente, como también puedes esperar la visita de uno de nuestors inspectores dentro de las 48hs hábiles luego de tu contacto con nosotros</p>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
 
-  <footer class="bg-dark">
+  <footer>
     <h4>© 1998-2022 Glass Todos los derechos reservados.</h4>
     <div class="footer__redes">
       <ul class="footer__ul">

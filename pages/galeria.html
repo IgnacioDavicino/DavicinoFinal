@@ -17,7 +17,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">  
   <!-- Icono -->
   <link rel="icon" type=image/png href="../img/logo.png">
   <!-- Font awesome-->
@@ -30,7 +30,7 @@
 
 <body>
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark shadow-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
           <img class="navbar__logo" src="../img/logo.png" alt="logo" class="d-inline-block align-text-top">
@@ -48,7 +48,7 @@
               <a class="navbar__a nav-link" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="navbar__a nav-link  active" href="galeria.html">Galeria</a>
+              <a class="navbar__a nav-link active" href="galeria.html">Galeria</a>
             </li>
             <li class="nav-item">
               <a class="navbar__a nav-link" href="contacto.html">Contacto</a>
@@ -58,10 +58,14 @@
       </div>
     </nav>
     <main>
-        <section class="fluid">
-            <h1 class="section text-center p-5 ">Glass, observa nuestros distintos trabajos</h1>
+        <section class="fluid galeria">
+          <h2 class="section text-light text-center p-5 ">Glass, observa nuestros distintos trabajos</h2>
+          <div class="galeriatitulo section text-light text-center p-5">
+            <p>Estamos orgullosos de poder compartirte lo que fue nuestra experiencia con pasados usuarios, estas son algunas de las imagenes tomadas por nuestros fotografos una vez concluido los trabajos hechos en los hogares de distintos clientes de alrededor del mundo. Queremos que tengas una experiencia única con nuestro servicio, entonces aqui dejamos a tu disposicion una breve muestra en formato "slides" de lo que nuestro equipo es capaz de hacer sin importar la ubicación o el estilo elegido por el cliente. Sin mas preambulos, disfrute de la vista y reconsidere lo reenergizante y maravilloso que puede ser una renovación total de su hogar</p>
+            <img class="p-5" src="../img/maingaleria.svg" alt="fotosvgdegaleria"> 
+          </div>
             <div>
-                <h3 class="section text-center p-5 text-decoration-underline" >Fachadas</h3>
+                <h3 class="section text-center p-5" >Fachadas</h3>
                 <div id="carouselExampleIndicators" class="carousel slide g-4 m-5" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,7 +95,7 @@
             </div>
             <div>
                 <div>
-                    <h3 class="section text-center p-5 text-decoration-underline" >Minimalista</h3>
+                    <h3 class="section text-center p-5" >Minimalista</h3>
                     <div id="carouselExampleIndicators" class="carousel slide g-4 m-5" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -122,7 +126,7 @@
             </div>
             <div>
                 <div>
-                    <h3 class="section text-center p-5 text-decoration-underline" >Rustico</h3>
+                    <h3 class="section text-center p-5" >Rustico</h3>
                     <div id="carouselExampleIndicators" class="carousel slide g-4 m-5" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -157,7 +161,7 @@
 
     <!-- Footer -->
 
-    <footer class="bg-dark">
+    <footer>
       <h4>© 1998-2022 Glass Todos los derechos reservados.</h4>
       <div class="footer__redes">
         <ul class="footer__ul">
