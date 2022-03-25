@@ -231,4 +231,6 @@ h3 {
   .pasosaseguir {
     flex-direction: column; }
   .galeriatitulo {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .grid-gallery__imgae {
+    width: 10%; } }
