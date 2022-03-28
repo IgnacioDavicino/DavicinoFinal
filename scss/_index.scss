@@ -38,7 +38,7 @@ background-size: contain;
     }
     cursor: pointer;
     outline: none;
-    background-color: #F26389;
+    background-color: map-get($colors, 'primario');
 } 
    .button:hover {
     background-color: #45BF9D;
@@ -57,7 +57,7 @@ background-size: contain;
 }
 
 .card-body{
-    background-color: #F26389;
+    background-color: map-get($colors, 'primario');
     .card-title{
     color:white;
     border-radius: 5%;}

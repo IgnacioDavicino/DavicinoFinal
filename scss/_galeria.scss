@@ -1,6 +1,6 @@
 .galeria{
-    color: #F26389;}
-    h3{color: #F26389;}
+    color: map-get($colors, 'primario')}
+    h3{color: map-get($colors, 'primario')}
 
     .galeriatitulo{
         display: flex;
@@ -10,28 +10,10 @@
 .grid-gallery {
     display: grid;
     grid-auto-rows: 200px;
-    gap: 1rem;
     grid-auto-flow: row dense;
+    gap: 1rem;
   }
-  
-  @media all and (min-width: 320px) {
-    .grid-gallery {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  
-  @media all and (min-width: 768px) {
-    .grid-gallery {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  @media all and (min-width: 1024px) {
-    .grid-gallery {
-      grid-template-columns: repeat(6, 1fr);
-    }
-  }
-  
+    
   .grid-gallery__item:nth-child(11n+1) {
     grid-column: span 1;
   }
