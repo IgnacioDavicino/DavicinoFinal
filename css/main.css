@@ -234,3 +234,24 @@ h3 {
     flex-direction: column; }
   .grid-gallery__imgae {
     width: 10%; } }
+
+@media (max-width: 920px) {
+  .seccioninicial {
+    display: flex;
+    flex-direction: column; }
+  .section__nosotros {
+    display: flex;
+    flex-direction: column; }
+    .section__nosotros .swipe {
+      display: inline; }
+  .banner__ul li {
+    margin: 1rem;
+    padding: 1rem; }
+  .swipe {
+    display: inline; }
+  .pasosaseguir {
+    flex-direction: column; }
+  .galeriatitulo {
+    flex-direction: column; }
+  .grid-gallery__imgae {
+    width: 10%; } }

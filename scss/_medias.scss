@@ -1,3 +1,5 @@
+// SMARTPHONES
+
 
 @media (max-width:$mobile){
     //INDEX
@@ -40,4 +42,47 @@
     }
 }
 
+
+// TABLETS 
+
+
+
+@media (max-width:$tablet){
+    //INDEX
+
+    .seccioninicial{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    //NOSOTROS
+
+    .section__nosotros{
+        display: flex;
+        flex-direction: column;
+        .swipe{
+            display: inline;
+        }
+    }
+
+    .banner__ul li{
+        margin: 1rem;
+        padding: 1rem;}
+    
+    .swipe{
+        display: inline;
+    }
+
+    // CONTACTO 
+    .pasosaseguir
+    {flex-direction: column;}
+
+
+    // GALERIA
+    .galeriatitulo
+    {flex-direction: column;}
+    .grid-gallery__imgae{
+        width: 10%;
+    }
+}
 
